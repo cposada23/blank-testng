@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tankering Regression" parallel="methods">
+
+    <listeners>
+
+        <listener class-name="com.playwrigth.listeners.reporting.ReportListener" />
+    </listeners>
+
+    <test verbose="2" name="Create Trip">
+        <classes>
+            <class name="com.playwrigth.application.hipertextual.tests.HipertextualNewsLetterTest"/>
+        </classes>
+    </test>
+
+</suite>
